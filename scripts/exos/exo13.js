@@ -23,7 +23,7 @@ Les sommes consécutives sont :
 export default () => {
   const nb = prompt("Enter an number: ");
 
-  for (let i = 1; i < nb; i++) {
+  for (let i = 1; i < nb / 2 + 1; i++) {
     let consecutiveNb = i;
     let sum = 0;
     const vals = [];
