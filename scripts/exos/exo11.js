@@ -5,7 +5,7 @@ Combien de fois doit-on la plier au minimum pour que l'épaisseur dépasse 400m 
 Une fois fini, aborder le problème à l'inverse.
 Combien de fois doit-on déplier une feuille de 400m au minimum pour que l'épaisseur dépasse 0.1mm.*/
 
-const exo11 = () => {
+export default () => {
   let thickness = 0.1;
   let folds = 0;
   while (thickness < 400) {
@@ -24,5 +24,3 @@ const exo11 = () => {
     console.log("fold", folds, "thickness", thickness);
   }
 };
-
-export default exo11;

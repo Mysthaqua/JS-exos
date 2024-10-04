@@ -15,7 +15,7 @@ Table des matières :
         -partie 3.2
         -partie 3.3*/
 
-const exo8 = () => {
+export default () => {
   console.log("Table of contents:");
   for (let i = 1; i <= 3; i++) {
     console.log(`\tChapter ${i}:`);
@@ -24,5 +24,3 @@ const exo8 = () => {
     }
   }
 };
-
-export default exo8;

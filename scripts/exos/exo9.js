@@ -39,7 +39,7 @@ Deuxième style d'affichage demandé :
 ...
    N  2N  3N  .....*/
 
-const exo9 = () => {
+export default () => {
   const N = prompt("Enter a value: ");
   for (let i = 1; i <= N; i++) {
     console.log("Table of 1:");
@@ -64,5 +64,3 @@ const exo9 = () => {
     console.log(str);
   }
 };
-
-export default exo9;

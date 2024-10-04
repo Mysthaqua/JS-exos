@@ -20,7 +20,7 @@ Les sommes consécutives sont :
     135 = 44+45+46
     135 = 67+68*/
 
-const exo13 = () => {
+export default () => {
   const nb = prompt("Enter an number: ");
 
   for (let i = 1; i < nb; i++) {
@@ -37,5 +37,3 @@ const exo13 = () => {
     }
   }
 };
-
-export default exo13;

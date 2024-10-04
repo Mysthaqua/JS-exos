@@ -6,7 +6,7 @@ Le nombre d'années d'expérience minimum est de 5 ans.
 On affichera différents messages pour chaque condition non respectée.
 Il est possible de réaliser cet exercice avec une seule structure conditionnelle ne comportant qu'une condition par clause (pas de and/or)*/
 
-const exo6 = () => {
+export default () => {
   // const age = prompt("Enter your age: ");
   // const salary = prompt("Enter your max possible salary: ");
   // const exp = prompt("Enter the number of years of experience you have: ");
@@ -31,5 +31,3 @@ const exo6 = () => {
     console.log("You are eligible !");
   }
 };
-
-export default exo6;

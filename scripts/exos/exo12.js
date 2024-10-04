@@ -11,7 +11,7 @@ Saisir le taux (%) : 2
 Saisir la population visée : 80000
 La population dépasse la population visée à l'année 36 (81595 habitants)*/
 
-const exo12 = () => {
+export default () => {
   let pop = prompt("Enter the population: ");
   const growthRate = prompt("Enter the rate (%): ");
   const goalPop = prompt("Enter the goal population: ");
@@ -23,5 +23,3 @@ const exo12 = () => {
   }
   console.log(`The population will reach the goal in ${cpt} years.`);
 };
-
-export default exo12;

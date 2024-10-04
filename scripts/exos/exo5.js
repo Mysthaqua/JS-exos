@@ -10,11 +10,9 @@ Il est possible de réaliser cet exercice sans if imbriqué grâce au else if
 
 If est aussi possible de le réaliser avec uniquement des ternaires*/
 
-const exo5 = () => {
+export default () => {
   const temp = prompt("Enter a temperature: ");
   console.log(
     `The water is ${temp < 0 ? "solid" : temp <= 100 ? "liquid" : "gaseous"}.`
   );
 };
-
-export default exo5;

@@ -14,7 +14,7 @@ Je commence à compter :
    10
 Fin du compte !*/
 
-const exo7 = () => {
+export default () => {
   console.log("[FOR] Counting started:");
   for (let i = 1; i <= 10; i++) {
     console.log(i);
@@ -28,5 +28,3 @@ const exo7 = () => {
   }
   console.log("[WHILE] Counting ended!");
 };
-
-export default exo7;

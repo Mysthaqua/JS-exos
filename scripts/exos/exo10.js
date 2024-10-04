@@ -13,11 +13,9 @@ Exemple pour 5 lignes
  *******
 **********/
 
-const exo10 = () => {
+export default () => {
   const height = prompt("Enter the height: ");
   for (let i = 0; i < height; i++) {
     console.log(" ".repeat(height - i - 1) + "*".repeat(i * 2 + 1));
   }
 };
-
-export default exo10;
