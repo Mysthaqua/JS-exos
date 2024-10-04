@@ -1,28 +1,15 @@
-// Exercice 01
-// Demander à l'utilisateur son nom et ensuite son prénom
-// Afficher un message Bonjour Nom utilisateur Prenom utilisateur !!! dans la console et avec une fenetre.
+import exo1 from "./exos/exo1.js";
+import exo2 from "./exos/exo2.js";
+import exo3 from "./exos/exo3.js";
+import exo4 from "./exos/exo4.js";
+import exo5 from "./exos/exo5.js";
+import exo6 from "./exos/exo6.js";
+import exo7 from "./exos/exo7.js";
+import exo8 from "./exos/exo8.js";
+import exo9 from "./exos/exo9.js";
+import exo10 from "./exos/exo10.js";
+import exo11 from "./exos/exo11.js";
+import exo12 from "./exos/exo12.js";
+import exo13 from "./exos/exo13.js";
 
-const lastName = prompt("What's your last name ? ");
-const firstName = prompt("What's your first name ? ");
-const message = `Hello ${lastName} ${firstName}`;
-console.log(message);
-alert(message);
-
-// Exercice 02
-// Réalisez un programme permettant d'obtenir la somme de deux variables numérique
-// Les deux nombres à additionner sont issus de saisies utilisateur
-// Proceder à l'addition des 2 variables
-// Afficher le résulat de l'opération sous la forme nb1 + nb2 = resultat
-
-const a = prompt("Enter the first value: ");
-const b = prompt("Enter the seconde value: ");
-console.log(`${a} + ${b} = ${a + b}`);
-
-// Exercice 03
-// Écrire un programme qui, à partir de la saisie d'un rayon et d'une hauteur, calcule le volume d'un cône droit
-// 𝑉 = 13*𝜋*𝑟*ℎ
-
-const r = prompt("Enter the radius: ");
-const h = prompt("Enter the height: ");
-const V = 13 * Math.PI * r * h;
-console.log(`Volume of the cone: ${V}`);
+exo13();
