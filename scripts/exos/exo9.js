@@ -49,11 +49,13 @@ const exo9 = () => {
   }
 
   let str = "";
+  let separation = "";
   for (let j = 1; j <= 10; j++) {
     str += `${j}`.padStart(4);
+    separation += "-".repeat(j.toString().length + 3);
   }
   console.log(str);
-  console.log("----------------------------------------");
+  console.log(separation);
   for (let i = 1; i <= N; i++) {
     let str = "";
     for (let j = 1; j <= 10; j++) {
