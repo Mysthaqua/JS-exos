@@ -11,13 +11,23 @@ const exo6 = () => {
   // const salary = prompt("Enter your max possible salary: ");
   // const exp = prompt("Enter the number of years of experience you have: ");
 
+  let eligible = true;
   if (prompt("Enter your age: ") < 30) {
     console.log("You must be at least 30.");
-  } else if (prompt("Enter your max possible salary: ") > 40000) {
+    eligible = false;
+  }
+
+  if (prompt("Enter your max possible salary: ") > 40000) {
     console.log("You must have a max possible salary of 40,000€.");
-  } else if (prompt("Enter the number of years of experience you have: ") < 5) {
+    eligible = false;
+  }
+
+  if (prompt("Enter the number of years of experience you have: ") < 5) {
     console.log("You must have at least 5 years of experience.");
-  } else {
+    eligible = false;
+  }
+
+  if (eligible) {
     console.log("You are eligible !");
   }
 };
