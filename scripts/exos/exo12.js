@@ -21,5 +21,9 @@ export default () => {
     pop *= 1 + growthRate / 100;
     cpt++;
   }
-  console.log(`The population will reach the goal in ${cpt} years.`);
+  console.log(
+    `The population will reach the goal in ${cpt} years (${parseInt(
+      pop
+    )} inhabitants).`
+  );
 };
