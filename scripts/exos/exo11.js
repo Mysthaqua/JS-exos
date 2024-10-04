@@ -6,7 +6,7 @@ Une fois fini, aborder le problème à l'inverse.
 Combien de fois doit-on déplier une feuille de 400m au minimum pour que l'épaisseur dépasse 0.1mm.*/
 
 export default () => {
-  let thickness = 0.1;
+  let thickness = 0.0001;
   let folds = 0;
   while (thickness < 400) {
     thickness *= 2;
@@ -18,7 +18,7 @@ export default () => {
 
   thickness = 400;
   folds = 0;
-  while (thickness > 0.1) {
+  while (thickness > 0.0001) {
     thickness /= 2;
     folds++;
     console.log("fold", folds, "thickness", thickness);
