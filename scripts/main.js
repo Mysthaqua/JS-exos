@@ -11,6 +11,15 @@ import exo10 from "./exos/exo10.js";
 import exo11 from "./exos/exo11.js";
 import exo12 from "./exos/exo12.js";
 import exo13 from "./exos/exo13.js";
+import exo14 from "./exos/exo14.js";
+import exo15 from "./exos/exo15.js";
+import exo16 from "./exos/exo16.js";
+import exo17 from "./exos/exo17.js";
+import exo18 from "./exos/exo18.js";
+import exo19 from "./exos/exo19.js";
+import exo20 from "./exos/exo20.js";
+import exo21 from "./exos/exo21.js";
+import exo22 from "./exos/exo22.js";
 
 const exo = parseInt(prompt("Quel exo ? "));
 switch (exo) {
@@ -52,5 +61,32 @@ switch (exo) {
     break;
   case 13:
     exo13();
+    break;
+  case 14:
+    exo14();
+    break;
+  case 15:
+    exo15();
+    break;
+  case 16:
+    exo16();
+    break;
+  case 17:
+    exo17();
+    break;
+  case 18:
+    exo18();
+    break;
+  case 19:
+    exo19();
+    break;
+  case 20:
+    exo20();
+    break;
+  case 21:
+    exo21();
+    break;
+  case 22:
+    exo22();
     break;
 }
