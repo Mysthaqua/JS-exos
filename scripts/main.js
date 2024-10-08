@@ -20,6 +20,8 @@ import exo19 from "./exos/exo19.js";
 import exo20 from "./exos/exo20.js";
 import exo21 from "./exos/exo21.js";
 import exo22 from "./exos/exo22.js";
+import exo23 from "./exos/exo23.js";
+import exo24 from "./exos/exo24.js";
 
 const exo = parseInt(prompt("Quel exo ? "));
 switch (exo) {
@@ -88,5 +90,11 @@ switch (exo) {
     break;
   case 22:
     exo22();
+    break;
+  case 23:
+    exo23();
+    break;
+  case 24:
+    exo24();
     break;
 }
